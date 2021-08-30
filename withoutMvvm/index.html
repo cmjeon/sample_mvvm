@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Album Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h2 class="container">검색</h2>
+  </header>
+  <div class="container">
+    <form id="search-form-view">
+      <label for="title">Album Title</label>
+      <input type="text" name="title" />
+
+      <label>is Classic</label>
+      <input type="checkbox" name="isClassic" />
+      <div>
+        <label for="composer">Composer</label>
+        <input type="text" name="composer" />
+      </div>
+      <button type="submit" class="btn-reset"></button>
+    </form>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
